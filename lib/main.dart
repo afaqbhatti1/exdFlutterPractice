@@ -1,4 +1,4 @@
-import 'package:exdflutter_practice/Loginscreen_tast.dart';
+import 'package:exdflutter_practice/apicall_card.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepOrange,
       ),
-      home: const LoginScreenTask(),
+      home: const ApiCallCard(),
     );
   }
 }
